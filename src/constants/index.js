@@ -11,7 +11,7 @@ import project5 from "../assets/Photos/project-5.png"
 
 
 
-export const HERO_CONTENT = `I Am A Passionate Frontend Developer With A Knack For Crafting Robust And Scalable Web Applications. I Have Honed My Skills In Front-end Technologies In ReactJs. My Goal Is To Leverage My Expertise To Create Innovative Solutions That Drive Business Growth And Deliver Exceptional User Experiences.`;
+export const HERO_CONTENT = `"A Self Taught Frontend Developer" With A Knack For Crafting Robust And Scalable Web Applications. I Have Honed My Skills In Front-end Technologies In ReactJs. My Goal Is To Leverage My Expertise To Create Innovative Solutions That Drive Business Growth And Deliver Exceptional User Experiences.`;
 
 export const ABOUT_TEXT = `"An Independent And Self-Motivated Hardworking Individual Dedicated Toward Goals". My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
