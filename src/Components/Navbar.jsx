@@ -12,9 +12,9 @@ function Navbar() {
         </div>
         
         <div className='flex m-8 items-center justify-center gap-4 text-2xl lg:text-4xl cursor-pointer '>
-            <FaGithub/>
-            <FaLinkedin/>
-            <FiInstagram/>
+           <a href="https://github.com/SaikatSingha531" target='_blank'><FaGithub/></a> 
+           <a href="https://www.linkedin.com/in/saikat-singha-373100254/" target='_blank'> <FaLinkedin/></a>
+           <a href="https://www.instagram.com/deep_singha_5.3.1/" target='_blank'> <FiInstagram/></a>
         </div>
 
     </nav>

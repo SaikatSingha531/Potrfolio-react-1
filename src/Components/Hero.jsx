@@ -49,9 +49,11 @@ function Hero() {
              className='w-full lg:w-1/2 lg:p-8 '> 
                 <div className='flex justify-center'>
                     <motion.img
-                    initial={{x:100,opacity:0}}           
-                    animate={{x:0, opacity:1}}    
-                    transition={{ duration: 1 , delay:0.5 }}
+
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.4, delay:0.4}}
+
                      src={dp} alt="Main img" className="w-90 h-90 object-cover rounded-2xl" />
                 </div>
             </div>

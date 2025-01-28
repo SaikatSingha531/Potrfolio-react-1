@@ -23,7 +23,7 @@ function Projects() {
                       whileInView={{ opacity:1, x:0 }}
                       transition={{ duration:0.5}}
 
-                     className='w-full lg:w-1/4'>
+                     className='w-full lg:w-1/4 cursor-help'>
                     <img src={p.image} alt={p.title} className='h-40 w-70 mb-6  rounded-md' />
                     </motion.div>
 
