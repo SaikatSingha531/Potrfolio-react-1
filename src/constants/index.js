@@ -3,9 +3,17 @@
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
+import project1 from "../assets/Photos/project-1.png"
+import project2 from "../assets/Photos/project-2.png"
+import project3 from "../assets/Photos/project-3.png"
+import project4 from "../assets/Photos/project-4.png"
+import project5 from "../assets/Photos/project-5.png"
+
+
+
 export const HERO_CONTENT = `I Am A Passionate Frontend Developer With A Knack For Crafting Robust And Scalable Web Applications. I Have Honed My Skills In Front-end Technologies In ReactJs. My Goal Is To Leverage My Expertise To Create Innovative Solutions That Drive Business Growth And Deliver Exceptional User Experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `"An Independent And Self-Motivated Hardworking Individual Dedicated Toward Goals". My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 // export const EXPERIENCES = [
 //   {
@@ -38,39 +46,46 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 //   },
 // ];
 
-// export const PROJECTS = [
-//   {
-//     title: "E-Commerce Website",
-//     image: project1,
-//     description:
-//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-//   },
-//   {
-//     title: "Task Management App",
-//     image: project2,
-//     description:
-//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-//   },
-//   {
-//     title: "Blogging Platform",
-//     image: project4,
-//     description:
-//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-//   },
-// ];
+export const PROJECTS = [
+  {
+    title: "Admin Dashboard",
+    image: project1,
+    description:
+      "A Fully Functional Admin Dashboard Website With features like Analyze Everything Like All Of Yours Menbers All Actions And Many More.",
+    technologies: ["React", "Tailwind" , "CSS"],
+  },
+  {
+    title: "Weather App",
+    image: project2,
+    description:
+      "An Simple Great Looking And Fully Updated Weather App That Can Gives You Live Weather App.",
+    technologies: ["React", "Tailwind" , "CSS"],
+  },
+  {
+    title: "To-Do List",
+    image: project3,
+    description:
+      "A Perfext To-Do List App That Can Helps You To List And Remind Your All Tasks In Just One Place, And Make Your Day As Perfect As You Want It To Be.",
+    technologies: ["React", "Tailwind" , "CSS"],
+  },
+  {
+    title: "Rain Sound",
+    image: project4,
+    description:
+      "A Platform For Make Your Mind Fresh, During Meditation After Listen This Music You Can Feels Great Mind freshness .",
+    technologies: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    title: "MEME Generator",
+    image: project5,
+    description:
+      "A Platform That Can Make You Laugh In Every Click, After Every Click You Can Get A Random Meme That Can Make You Lough For Sure.",
+    technologies: ["HTML", "CSS", "Javascript", "Tailwind"],
+  },
+];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "West Bengal , India ",
+  phoneNo: "+91 7001980084 ",
+  email: "saikatsingha531@gmail.com",
 };

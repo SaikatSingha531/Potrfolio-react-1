@@ -5,7 +5,7 @@ import dp from "../assets/Photos/dp.jpg"
 function Hero() {
   return (
     <>
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35 '>
+    <div className='border-b border-neutral-700 pb-4 lg:mb-35 '>
         <div className='flex flex-wrap'>
             <div className='w-full lg:w-1/2'>
                 <div className='flex flex-col items-center lg:items-start'>
@@ -16,7 +16,7 @@ function Hero() {
             </div>
             <div className='w-full lg:w-1/2 lg:p-8 '> 
                 <div className='flex justify-center'>
-                    <img src={dp} alt="" className="w-90 h-90 object-cover rounded-md" />
+                    <img src={dp} alt="Main img" className="w-90 h-90 object-cover rounded-2xl" />
 
                 </div>
             </div>
