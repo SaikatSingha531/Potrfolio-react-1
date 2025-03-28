@@ -3,6 +3,8 @@ import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FiInstagram } from 'react-icons/fi'
+import { TbFileCv } from "react-icons/tb";
+
 
 function Navbar() {
   return (
@@ -11,10 +13,11 @@ function Navbar() {
            <span className='text-4xl lg:text-6xl font-semibold '> {`</>`} </span>
         </div>
         
-        <div className='flex m-8 items-center justify-center gap-4 text-2xl lg:text-4xl cursor-pointer '>
+        <div className='flex md:m-8 items-center justify-center gap-4 text-2xl lg:text-4xl cursor-pointer '>
            <a href="https://github.com/SaikatSingha531" target='_blank'><FaGithub/></a> 
            <a href="https://www.linkedin.com/in/saikat-singha-373100254/" target='_blank'> <FaLinkedin/></a>
            <a href="https://www.instagram.com/deep_singha_5.3.1/" target='_blank'> <FiInstagram/></a>
+           <a href="/Saikat Singha Resume.pdf" download="Saikat Singha Resume.pdf"><TbFileCv /></a>
         </div>
 
     </nav>

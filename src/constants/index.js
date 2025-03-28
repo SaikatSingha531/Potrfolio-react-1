@@ -3,6 +3,7 @@
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
+import project from "../assets/Photos/image.png"
 import project1 from "../assets/Photos/project-1.png"
 import project2 from "../assets/Photos/project-2.png"
 import project3 from "../assets/Photos/project-3.png"
@@ -48,11 +49,20 @@ export const ABOUT_TEXT = `"An Independent And Self-Motivated Hardworking Indivi
 
 export const PROJECTS = [
   {
+    title: "School Management App",
+    image: project,
+    description:
+      "A fully responsive school management app built with React and Tailwind, designed to streamline administrative tasks and enhance user experience.",
+    technologies: ["React", "Tailwind" , "CSS"],
+    link:"https://saikatschoolmanagement.netlify.app/",
+  },
+  {
     title: "Admin Dashboard",
     image: project1,
     description:
       "A Fully Functional Admin Dashboard Website With features like Analyze Everything Like All Of Yours Menbers All Actions And Many More.",
     technologies: ["React", "Tailwind" , "CSS"],
+    link:"https://admindashboard-saikat.netlify.app/",
   },
   {
     title: "Weather App",
@@ -60,6 +70,7 @@ export const PROJECTS = [
     description:
       "An Simple Great Looking And Fully Updated Weather App That Can Gives You Live Weather App.",
     technologies: ["React", "Tailwind" , "CSS"],
+    link:"https://checkweather7001.netlify.app/",
   },
   {
     title: "To-Do List",
@@ -67,13 +78,7 @@ export const PROJECTS = [
     description:
       "A Perfext To-Do List App That Can Helps You To List And Remind Your All Tasks In Just One Place, And Make Your Day As Perfect As You Want It To Be.",
     technologies: ["React", "Tailwind" , "CSS"],
-  },
-  {
-    title: "Rain Sound",
-    image: project4,
-    description:
-      "A Platform For Make Your Mind Fresh, During Meditation After Listen This Music You Can Feels Great Mind freshness .",
-    technologies: ["HTML", "CSS", "Javascript"],
+    link:"https://dailytasklistvite.netlify.app/",
   },
   {
     title: "MEME Generator",
@@ -81,6 +86,7 @@ export const PROJECTS = [
     description:
       "A Platform That Can Make You Laugh In Every Click, After Every Click You Can Get A Random Meme That Can Make You Lough For Sure.",
     technologies: ["HTML", "CSS", "Javascript", "Tailwind"],
+    link:"https://generatememeforme.netlify.app/",
   },
 ];
 
